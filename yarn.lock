@@ -1293,6 +1293,11 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
+samp-query@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.npmjs.org/samp-query/-/samp-query-0.1.5.tgz"
+  integrity sha512-hMyi2Df7JECBFBg+jmWN/vemY1VnHAWOdk2MR8nIoc7ADhge7uwfwaqTc0np9E0+GoxiLexEKV/cSGH+b1eIeg==
+
 scheduler@^0.23.0:
   version "0.23.0"
   resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz"

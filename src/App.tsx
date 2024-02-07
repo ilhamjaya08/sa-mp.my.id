@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Home from "./components/Homepage/Home";
 function App() {
  
 
@@ -14,7 +15,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-          {/*<Route path="/" element={<Home />} />*/}
+          <Route path="/" element={<Home />} />
       </Routes>
       <Footer />
     </Router>

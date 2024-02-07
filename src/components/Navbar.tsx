@@ -3,7 +3,6 @@ import {
   MoonIcon,
   SunIcon,
   Bars3Icon,
-  XMarkIcon,
   FaceSmileIcon,
 } from "@heroicons/react/24/outline";
 import "../index.css";
@@ -30,7 +29,7 @@ function Navbar() {
               </div>
               {/* primary */}
               <div className="hidden lg:flex gap-8 ">
-                <a href="#" className="">
+                <a href="/" className="">
                   Home
                 </a>
                 <a href="#">Servers</a>

@@ -5,7 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
 import "../index.css";
 
 function Footer() {
@@ -15,7 +15,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Built and Developed with React.js</h3>
+          <h3>Built and Developed with Vite, React.js, and TypeScript</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} ilhamjaya08</h3>
@@ -44,12 +44,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.ilhamjaya08.me"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <TbWorldWww />
               </a>
             </li>
             <li className="social-icons">
